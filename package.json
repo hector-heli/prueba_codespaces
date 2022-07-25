@@ -1,0 +1,27 @@
+{
+  "name": "prueba_codespaces",
+  "version": "1.0.0",
+  "description": "prueba desde gitpod",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hector-heli/prueba_codespaces.git"
+  },
+  "author": "Héctor Helí Ruiz García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hector-heli/prueba_codespaces/issues"
+  },
+  "homepage": "https://github.com/hector-heli/prueba_codespaces#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
