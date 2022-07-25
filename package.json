@@ -4,7 +4,7 @@
   "description": "prueba desde gitpod",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon src/index.js --exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,18 @@
   "homepage": "https://github.com/hector-heli/prueba_codespaces#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mongodb": "^4.8.0",
+    "mongoose": "^6.4.6",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/preset-env": "^7.18.9"
   }
 }
