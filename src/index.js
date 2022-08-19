@@ -6,6 +6,7 @@
 import app from './app';
 import './database'; 
 
+
 app.listen(app.get('port'), () => {
     const message = 'Server on port: ' + app.get('port');
     console.log(message.yellow);
